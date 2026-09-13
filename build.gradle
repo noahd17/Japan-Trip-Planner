@@ -1,0 +1,16 @@
+// Top-level build file
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.7.3'
+        // Google Services plugin - required for Firebase
+        classpath 'com.google.gms:google-services:4.5.0'
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

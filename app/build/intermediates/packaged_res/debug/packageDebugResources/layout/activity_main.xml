@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Japan Trip Planner"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/packingListButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Packing List"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/budgetButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Budget Tracker"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/spotsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tagged Spots"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/signOutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Out"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>

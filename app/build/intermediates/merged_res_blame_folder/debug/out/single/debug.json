@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.noah.japantripplanner.app-merged_res-40:/layout_item_spot.xml.flat",
+        "source": "com.noah.japantripplanner.app-main-42:/layout/item_spot.xml"
+    },
+    {
+        "merged": "com.noah.japantripplanner.app-merged_res-40:/layout_activity_packing_list.xml.flat",
+        "source": "com.noah.japantripplanner.app-main-42:/layout/activity_packing_list.xml"
+    },
+    {
+        "merged": "com.noah.japantripplanner.app-merged_res-40:/layout_activity_main.xml.flat",
+        "source": "com.noah.japantripplanner.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.noah.japantripplanner.app-merged_res-40:/layout_item_packing.xml.flat",
+        "source": "com.noah.japantripplanner.app-main-42:/layout/item_packing.xml"
+    },
+    {
+        "merged": "com.noah.japantripplanner.app-merged_res-40:/layout_item_expense.xml.flat",
+        "source": "com.noah.japantripplanner.app-main-42:/layout/item_expense.xml"
+    },
+    {
+        "merged": "com.noah.japantripplanner.app-merged_res-40:/layout_activity_spots.xml.flat",
+        "source": "com.noah.japantripplanner.app-main-42:/layout/activity_spots.xml"
+    },
+    {
+        "merged": "com.noah.japantripplanner.app-merged_res-40:/layout_activity_login.xml.flat",
+        "source": "com.noah.japantripplanner.app-main-42:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.noah.japantripplanner.app-merged_res-40:/layout_activity_budget.xml.flat",
+        "source": "com.noah.japantripplanner.app-main-42:/layout/activity_budget.xml"
+    }
+]

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1098694747925",
+    "project_id": "japan-trip-planner-38fb9",
+    "storage_bucket": "japan-trip-planner-38fb9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098694747925:android:6c13f2fc82af0b2acdeb1c",
+        "android_client_info": {
+          "package_name": "com.noah.japantripplanner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaKKWAmUO5reuXWElPEForBJwlvMVlbsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
