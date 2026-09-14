@@ -105,23 +105,3 @@ this app themselves, they'll either need their own Firebase project (with
 their own `google-services.json`) or you'll need to share yours with them
 directly (not via the public repo) — mention this in your writeup as part
 of how you coordinated.
-
-## 6. Working with your partner
-
-Since you're keeping this loose (repo-level only):
-1. Have them clone your repo.
-2. Get them a working `google-services.json` (see note above) so it builds.
-3. Ask them to make a small, real change — e.g. add a "sort by packed
-   status" toggle to the packing list, or a delete-confirmation dialog —
-   and push it back as a commit or PR.
-4. You pull their change, build it, and confirm it works on your device.
-5. Screenshot the commit history and both directions of the round trip
-   for your writeup.
-
-## 7. Ideas if you want to go further
-
-- Add a category dropdown (Spinner) to expenses instead of free text.
-- Sort tagged spots by distance from your current location.
-- Add push notifications (Firebase Cloud Messaging) for a packing
-  deadline reminder.
-- Add a currency picker beyond just JPY, using the same exchange-rate API.
