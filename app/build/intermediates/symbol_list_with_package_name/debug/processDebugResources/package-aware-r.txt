@@ -3085,6 +3085,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable mid_section_rectangle
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
 drawable mtrl_checkbox_button_checked_unchecked
@@ -3139,6 +3140,7 @@ drawable notify_panel_notification_icon_bg
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable top_section_rectangle
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3314,6 +3316,7 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id dividerText
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -3403,6 +3406,7 @@ id light
 id line1
 id line3
 id linear
+id linearLayout
 id listMode
 id list_item
 id loginButton
@@ -3644,7 +3648,10 @@ id title_template
 id toggle
 id top
 id topPanel
-id totalText
+id totalContainer
+id totalJpyText
+id totalTitleText
+id totalUsdText
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -4714,6 +4721,7 @@ style Theme_MaterialComponents_Light_NoActionBar
 style Theme_MaterialComponents_Light_NoActionBar_Bridge
 style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
+style Theme_PlayCore_Transparent
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark

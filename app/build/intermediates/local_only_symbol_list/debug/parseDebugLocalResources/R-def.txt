@@ -1,5 +1,7 @@
 R_DEF: Internal format may change without notice
 local
+drawable mid_section_rectangle
+drawable top_section_rectangle
 id addExpenseButton
 id addItemButton
 id amountInput
@@ -10,10 +12,12 @@ id categoryInput
 id categoryText
 id deleteButton
 id deleteExpenseButton
+id dividerText
 id emailInput
 id expenseRecyclerView
 id itemNameInput
 id itemNameText
+id linearLayout
 id loginButton
 id packedCheckBox
 id packingListButton
@@ -28,7 +32,10 @@ id spotsButton
 id spotsRecyclerView
 id statusText
 id tagSpotButton
-id totalText
+id totalContainer
+id totalJpyText
+id totalTitleText
+id totalUsdText
 layout activity_budget
 layout activity_login
 layout activity_main
