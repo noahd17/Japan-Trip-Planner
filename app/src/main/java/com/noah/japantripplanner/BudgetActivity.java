@@ -37,7 +37,8 @@ public class BudgetActivity extends AppCompatActivity {
 
     private CollectionReference expensesRef;
     private ExpenseAdapter adapter;
-    private TextView totalText;
+    private TextView totalUsdText;
+    private TextView totalJpyText;
     private double usdToJpyRate = 150.0; // fallback used if the API call fails
     private double runningTotalUsd = 0.0;
 
@@ -51,7 +52,8 @@ public class BudgetActivity extends AppCompatActivity {
                 .collection("users").document(uid)
                 .collection("expenses");
 
-        totalText = findViewById(R.id.totalText);
+        totalUsdText = findViewById(R.id.totalUsdText);
+        totalJpyText = findViewById(R.id.totalJpyText);
         findViewById(R.id.backButton).setOnClickListener(v -> finish());
         RecyclerView recyclerView = findViewById(R.id.expenseRecyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -144,7 +146,9 @@ public class BudgetActivity extends AppCompatActivity {
 
     private void updateTotalText() {
         double totalJpy = runningTotalUsd * usdToJpyRate;
-        totalText.setText(String.format(Locale.US, "Total: $%.2f (~¥%.0f)",
-                runningTotalUsd, totalJpy));
+        totalUsdText.setText(String.format(Locale.US, "$%.2f",
+                runningTotalUsd));
+        totalJpyText.setText(String.format(Locale.JAPAN, "¥%,.0f",
+                totalJpy));
     }
 }

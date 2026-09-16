@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.noah.japantripplanner.app-mergeDebugResources-38:/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "com.noah.japantripplanner.app-mergeDebugResources-43:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "/Users/noahdillard/.gradle/caches/9.3.0/transforms/4d1c0d4001560d33bcbb7f6699db42c0/transformed/appcompat-1.7.0/res/values-watch-v21/values-watch-v21.xml",
+                    "source": "C:\\Users\\trini\\.gradle\\caches\\9.3.0\\transforms\\4d1c0d4001560d33bcbb7f6699db42c0\\workspace\\transformed\\appcompat-1.7.0\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",
