@@ -1,45 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayout2"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="24dp">
+    android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Japan Trip Planner"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/japan_trip_planner"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:layout_marginBottom="24dp" />
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/myImage"
+        android:layout_width="315dp"
+        android:layout_height="157dp"
+        android:contentDescription="@string/fuji_mountain_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cherry_blossom"
+        app:layout_constraintBottom_toTopOf="@+id/packingListButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/packingListButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Packing List"
-        android:layout_marginBottom="12dp" />
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/packing_list"
+        android:textAllCaps="false"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/budgetButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.996" />
 
     <Button
         android:id="@+id/budgetButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Budget Tracker"
-        android:layout_marginBottom="12dp" />
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/budget_tracker"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/spotsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/spotsButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Tagged Spots"
-        android:layout_marginBottom="12dp" />
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="168dp"
+        android:text="@string/tagged_spots"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/signOutButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Sign Out"
         style="?android:attr/borderlessButtonStyle"
-        android:layout_marginTop="24dp" />
+        android:layout_width="104dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/sign_out"
+        android:textColor="#757575"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView" />
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

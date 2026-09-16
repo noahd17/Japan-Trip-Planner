@@ -1,6 +1,8 @@
 R_DEF: Internal format may change without notice
 local
+drawable cherry_blossom
 drawable mid_section_rectangle
+drawable red_caret
 drawable top_section_rectangle
 id addExpenseButton
 id addItemButton
@@ -18,7 +20,9 @@ id expenseRecyclerView
 id itemNameInput
 id itemNameText
 id linearLayout
+id linearLayout2
 id loginButton
+id myImage
 id packedCheckBox
 id packingListButton
 id packingRecyclerView
@@ -32,6 +36,7 @@ id spotsButton
 id spotsRecyclerView
 id statusText
 id tagSpotButton
+id textView
 id totalContainer
 id totalJpyText
 id totalTitleText
@@ -44,11 +49,23 @@ layout activity_spots
 layout item_expense
 layout item_packing
 layout item_spot
+string add
 string app_name
+string back
+string budget_tracker
+string category_eg_lodging
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string packing_list
 string project_id
+string sign_out
+string tagged_spots
+string total
+string usd
+string vertical_line
+string zero_JPY
+string zero_USD
 style Theme.JapanTripPlanner

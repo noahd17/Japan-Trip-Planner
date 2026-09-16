@@ -1,9 +1,5 @@
 [
     {
-        "merged": "com.noah.japantripplanner.app-debug-45:/layout_activity_budget.xml.flat",
-        "source": "com.noah.japantripplanner.app-main-47:/layout/activity_budget.xml"
-    },
-    {
         "merged": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-debug-45:\\drawable_top_section_rectangle.xml.flat",
         "source": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-main-47:\\drawable\\top_section_rectangle.xml"
     },
@@ -12,16 +8,16 @@
         "source": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-main-47:\\layout\\activity_budget.xml"
     },
     {
-        "merged": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-debug-45:\\layout_activity_packing_list.xml.flat",
-        "source": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-main-47:\\layout\\activity_packing_list.xml"
-    },
-    {
         "merged": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-debug-45:\\layout_item_expense.xml.flat",
         "source": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-main-47:\\layout\\item_expense.xml"
     },
     {
-        "merged": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-debug-45:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-main-47:\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-debug-45:\\drawable_luggage_icon.xml.flat",
+        "source": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-main-47:\\drawable\\luggage_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-debug-45:\\drawable_luggage.png.flat",
+        "source": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-main-47:\\drawable\\luggage.png"
     },
     {
         "merged": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-debug-45:\\layout_activity_main.xml.flat",
@@ -36,11 +32,35 @@
         "source": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-main-47:\\layout\\item_packing.xml"
     },
     {
+        "merged": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-debug-45:\\drawable_mid_section_rectangle.xml.flat",
+        "source": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-main-47:\\drawable\\mid_section_rectangle.xml"
+    },
+    {
+        "merged": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-debug-45:\\drawable_luggage_bitmap.xml.flat",
+        "source": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-main-47:\\drawable\\luggage_bitmap.xml"
+    },
+    {
+        "merged": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-debug-45:\\drawable_red_caret.xml.flat",
+        "source": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-main-47:\\drawable\\red_caret.xml"
+    },
+    {
+        "merged": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-debug-45:\\drawable_cherry_blossom.png.flat",
+        "source": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-main-47:\\drawable\\cherry_blossom.png"
+    },
+    {
+        "merged": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-debug-45:\\layout_activity_packing_list.xml.flat",
+        "source": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-main-47:\\layout\\activity_packing_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-debug-45:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-main-47:\\layout\\activity_login.xml"
+    },
+    {
         "merged": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-debug-45:\\layout_activity_spots.xml.flat",
         "source": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-main-47:\\layout\\activity_spots.xml"
     },
     {
-        "merged": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-debug-45:\\drawable_mid_section_rectangle.xml.flat",
-        "source": "C:\\Users\\trini\\.gradle\\daemon\\9.3.0\\com.noah.japantripplanner.app-main-47:\\drawable\\mid_section_rectangle.xml"
+        "merged": "com.noah.japantripplanner.app-debug-45:/layout_activity_main.xml.flat",
+        "source": "com.noah.japantripplanner.app-main-47:/layout/activity_main.xml"
     }
 ]

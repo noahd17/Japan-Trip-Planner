@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Japan Trip Planner</string>
+    <string name="category_eg_lodging">Category (e.g. lodging)</string>
+    <string name="zero_USD">$0.00</string>
+    <string name="vertical_line">|</string>
+    <string name="zero_JPY">¥0</string>
+    <string name="total">Total</string>
+    <string name="back">Back</string>
+    <string name="usd">USD</string>
+    <string name="add">Add</string>
+    <string name="budget_tracker">Budget Tracker</string>
+    <string name="packing_list">Packing List</string>
+    <string name="tagged_spots">Tagged Spots</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="japan_trip_planner">Japan Trip Planner</string>
+    <string name="fuji_mountain_description">Fuji mountain with cherry blossoms</string>
 </resources>

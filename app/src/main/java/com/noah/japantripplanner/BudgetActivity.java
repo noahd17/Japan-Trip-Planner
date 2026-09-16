@@ -148,7 +148,7 @@ public class BudgetActivity extends AppCompatActivity {
         double totalJpy = runningTotalUsd * usdToJpyRate;
         totalUsdText.setText(String.format(Locale.US, "$%.2f",
                 runningTotalUsd));
-        totalJpyText.setText(String.format(Locale.JAPAN, "¥%,.2f",
+        totalJpyText.setText(String.format(Locale.JAPAN, "¥%,.0f",
                 totalJpy));
     }
 }
